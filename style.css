@@ -1,0 +1,304 @@
+body {
+    font-family: 'News Cycle', sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #666;
+}
+
+/* Pirmas */
+
+
+.container {
+  padding: 20px;
+  display: inline-block;
+}
+
+.main {
+  display: inline-block;
+  width: 260px;
+  height: 700px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #CBCFD1;
+  border-top: 5px solid grey;
+  background: white;
+  border-radius: 0px 0px 16px 16px;
+  transition: transform 0.5s;
+}
+
+.main:hover {
+    border-top: 5px solid #0974b3;
+    transform: translateY(-10px);
+
+}
+
+.block {
+  position: absolute;
+  width: 260px;
+  height: 64px;
+  background: #0974b3;
+  margin-top: 620px;
+  border-radius: 16px 0px 16px 0px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+
+}
+
+.block:hover {
+  position: absolute;
+  width: 260px;
+  height: 64px;
+  background: #065c8f;
+}
+
+.image {
+  float: left;
+  width: 150px;
+  height: 200px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+/* hover */
+
+.shadow {
+  position: absolute;
+  float: left;
+  width: 150px;
+  height: 200px;
+  padding: 0px;
+}
+
+.shadow:hover {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background: black;
+  opacity: 30%;
+}
+
+.zoom {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.card .zoom {
+  display: none;
+  position: absolute;
+}
+
+.card:hover .zoom {
+  display: block;
+}
+
+/* hover end */
+
+h1 {
+  margin-bottom: 0px;
+  color: #0974b3;
+}
+
+.year {
+  padding-bottom: 20px;
+}
+
+
+/* Antras */
+
+.container2 {
+  padding: 20px;
+  display: inline-block;
+}
+
+.main2 {
+  display: inline-block;
+  width: 260px;
+  height: 650px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #CBCFD1;
+  border-top: 5px solid grey;
+  background: white;
+  border-radius: 0px 0px 16px 16px;
+  transition: transform 0.5s;
+}
+
+.main2:hover {
+    border-top: 5px solid #0974b3;
+    transform: translateY(-10px);
+
+}
+
+.block2 {
+  position: absolute;
+  width: 260px;
+  height: 64px;
+  background: #0974b3;
+  margin-top: 570px;
+  border-radius: 16px 0px 16px 0px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+
+}
+
+.block2:hover {
+  position: absolute;
+  width: 260px;
+  height: 64px;
+  background: #065c8f;
+}
+
+.image2 {
+  float: left;
+  width: 150px;
+  height: 200px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+/* hover2 */
+
+.shadow2 {
+  position: absolute;
+  float: left;
+  width: 150px;
+  height: 200px;
+  padding: 0px;
+}
+
+.shadow2:hover {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background: black;
+  opacity: 30%;
+}
+
+.zoom2 {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.card2 .zoom2 {
+  display: none;
+  position: absolute;
+}
+
+.card2:hover .zoom2 {
+  display: block;
+}
+
+/* hover end */
+
+h1 {
+  margin-bottom: 0px;
+  color: #0974b3;
+}
+
+.year2 {
+  padding-bottom: 20px;
+}
+
+/* Trečias */
+
+.container3 {
+  padding: 20px;
+  display: inline-block;
+}
+
+.main3 {
+  display: inline-block;
+  width: 260px;
+  height: 700px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #CBCFD1;
+  border-top: 5px solid grey;
+  background: white;
+  border-radius: 0px 0px 16px 16px;
+  transition: transform 0.5s;
+}
+
+.main3:hover {
+    border-top: 5px solid #0974b3;
+    transform: translateY(-10px);
+
+}
+
+.block3 {
+  position: absolute;
+  width: 260px;
+  height: 64px;
+  background: #0974b3;
+  margin-top: 620px;
+  border-radius: 16px 0px 16px 0px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+
+}
+
+.block3:hover {
+  position: absolute;
+  width: 260px;
+  height: 64px;
+  background: #065c8f;
+}
+
+.image3 {
+  float: left;
+  width: 150px;
+  height: 200px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+/* hove3 */
+
+.shadow3 {
+  position: absolute;
+  float: left;
+  width: 150px;
+  height: 200px;
+  padding: 0px;
+}
+
+.shadow3:hover {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background: black;
+  opacity: 30%;
+}
+
+.zoom3 {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.card3 .zoom3 {
+  display: none;
+  position: absolute;
+}
+
+.card3:hover .zoom3 {
+  display: block;
+}
+
+/* hover end */
+
+h1 {
+  margin-bottom: 0px;
+  color: #0974b3;
+}
+
+.year3 {
+  padding-bottom: 20px;
+}
